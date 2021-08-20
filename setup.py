@@ -101,6 +101,7 @@ setup(
             'pdfjs = invenio_previewer.extensions.pdfjs',
             'zip = invenio_previewer.extensions.zip',
             'ipynb = invenio_previewer.extensions.ipynb',
+            'mirador3 = invenio_previewer.extensions.mirador3', 
             'default = invenio_previewer.extensions.default',
         ],
     },

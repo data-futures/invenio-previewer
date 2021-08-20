@@ -72,6 +72,7 @@ previewer = WebpackThemeBundle(
                 'bottom_css': './scss/invenio_previewer/bottom.scss',
                 'simple_image_css':
                     './scss/invenio_previewer/simple_image.scss',
+                'mirador3_js' : './js/invenio_previewer/mirador3.js',
             },
             dependencies={
                 'd3': '^3.5.17',
@@ -80,6 +81,8 @@ previewer = WebpackThemeBundle(
                 'jquery': '^3.3.1',
                 'pdfjs-dist': '^1.4.192',
                 'prismjs': '^1.15.0',
+                'mirador' : '~3.2.0',
+                'material-ui' : '<4.1.0'
             }
         ),
     }
