@@ -29,7 +29,8 @@ def preview(file):
         file=file,
         html_tags='dir="ltr" mozdisallowselectionprint moznomarginboxes',
 #        css_bundles=['pdfjs_css.css'],
-        js_bundles=current_previewer.js_bundles + [
-            'mirador3_js.js',
-        ]
+#        js_bundles=current_previewer.js_bundles + [
+#            'mirador3_js.js',
+#        ]
+         js_bundles=['mirador3_js'] ## we don't use this because its named in the template
     )

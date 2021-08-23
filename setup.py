@@ -89,7 +89,8 @@ setup(
             'messages = invenio_previewer',
         ],
         'invenio_assets.webpack': {
-            'invenio_previewer_theme = invenio_previewer.webpack:previewer'
+            'invenio_previewer_theme = invenio_previewer.webpack:previewer',
+            'invenio_previewer_mirador = invenio_previewer.webpack:mirador',
         },
         'invenio_previewer.previewers': [
             'csv_dthreejs = invenio_previewer.extensions.csv_dthreejs',
